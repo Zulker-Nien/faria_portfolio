@@ -5,6 +5,7 @@ class Store {
   constructor() {
     makeAutoObservable(this);
   }
+  
   readMore = false;
   description = 1;
   setReadMore = () => {
